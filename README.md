@@ -1,4 +1,4 @@
-# superpoint_slam Package
+# Superpoint_slam Package
 
 This package implements a visual SLAM pipeline optimized for embedded devices using TPU acceleration, as detailed in the master's thesis "Optimizing Visual SLAM on Embedded Devices Using TPU Acceleration".  It leverages the SuperPoint network for feature extraction and a modified ORB-SLAM2 for backend processing.  This project specifically aims to accelerate visual SLAM on edge devices, replacing the CPU-intensive ORB feature computation with SuperPoint features suitable for Edge TPU acceleration.
 
