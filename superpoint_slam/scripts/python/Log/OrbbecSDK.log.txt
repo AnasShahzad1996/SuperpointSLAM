@@ -1,0 +1,66 @@
+[06/18 15:00:52.975015][debug][1520][Context.cpp:31] Context creating. work_dir=/home/olive/ros2_ws/src/superpoint_slam/scripts/python
+[06/18 15:00:52.976242][debug][1520][Context.cpp:50] Config file version=1.1
+[06/18 15:00:52.988093][debug][1520][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[06/18 15:00:52.988339][info][1520][Context.cpp:69] Context created with config: default config!
+[06/18 15:00:52.988577][info][1520][Context.cpp:74] Context work_dir=/home/olive/ros2_ws/src/superpoint_slam/scripts/python
+[06/18 15:00:52.988721][info][1520][Context.cpp:77] 	- SDK version: 1.9.5
+[06/18 15:00:52.988890][info][1520][Context.cpp:78] 	- SDK stage version: main
+[06/18 15:00:52.989155][info][1520][Context.cpp:82] get config EnumerateNetDevice:false
+[06/18 15:00:52.989365][debug][1520][DeviceManager.cpp:30] DeviceManager init ...
+[06/18 15:00:52.989486][info][1520][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[06/18 15:00:53.002902][debug][1520][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[06/18 15:00:53.005730][debug][1520][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[06/18 15:00:53.005988][debug][1520][ObV4lDevice.cpp:337] Failed to open /sys/class/video4linux, possibly no device connected
+[06/18 15:00:53.006078][debug][1520][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[06/18 15:00:53.006149][debug][1520][UsbDeviceEnumerator.cpp:164]  - 1-1.1-3.0 | Orbbec(R) Astra(TM) 3D Camera(F) Depth
+[06/18 15:00:53.006544][warning][1520][OpenNIDeviceInfo.cpp:122] New openni device matched.
+[06/18 15:00:53.008329][info][1520][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[06/18 15:00:53.008609][debug][1520][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[06/18 15:00:53.008712][debug][1520][UsbDeviceEnumerator.cpp:72]   - Name: Astra Mini Pro, PID: 0x065B, SN/ID: AD7W333004V, connection: USB2.0
+[06/18 15:00:53.008950][info][1520][DeviceManager.cpp:15] Current found device(s): (1)
+[06/18 15:00:53.009320][info][1520][DeviceManager.cpp:24] 	- Name: Astra Mini Pro, PID: 0x065b, SN/ID: AD7W333004V, Connection: USB2.0
+[06/18 15:00:53.009554][debug][1520][DeviceManager.cpp:55] DeviceManager construct done!
+[06/18 15:00:53.009627][info][1520][Pipeline.cpp:15] Try to create pipeline with default device.
+[06/18 15:00:53.010097][debug][1520][DeviceManager.cpp:112] DeviceManager  createDevice...
+[06/18 15:00:53.010330][debug][1520][UsbDeviceEnumerator.cpp:289] UsbDeviceEnumerator createDevice...
+[06/18 15:00:53.019509][info][1520][OpenNIHostProtocol.cpp:567] Hardware versions: FW=5.8.22 (14), HW=0, Chip=6, Sensor=0, SYS=12
+[06/18 15:00:53.020784][error][1520][OpenNIHostProtocol.cpp:584] Get usb core type failed!
+[06/18 15:00:53.021038][debug][1520][OpenNIHostProtocol.cpp:665] Requesting KeepAlive...
+[06/18 15:00:53.021972][debug][1520][OpenNIHostProtocol.cpp:672] Got KeepAlive Reply.
+[06/18 15:00:53.023925][debug][1520][OpenNIHostProtocol.cpp:665] Requesting KeepAlive...
+[06/18 15:00:53.025051][debug][1520][OpenNIHostProtocol.cpp:672] Got KeepAlive Reply.
+[06/18 15:00:53.025149][debug][1520][OpenNIHostProtocol.cpp:690] Getting the fixed params...
+[06/18 15:00:53.025942][debug][1520][OpenNIHostProtocol.cpp:730] Reading sensor serial number...
+[06/18 15:00:53.026574][info][1520][OpenNISensorFirmware.cpp:1185] Sensor serial number:AD7W333004V
+[06/18 15:00:53.027728][debug][1520][OpenNIHostProtocol.cpp:802] Reading sensor platform string...
+[06/18 15:00:53.028573][info][1520][OpenNISensorFirmware.cpp:1213] Firmware version RD1007
+[06/18 15:00:53.029965][info][1520][OpenNISensorFirmware.cpp:1219] Device frequency 50
+[06/18 15:00:53.030681][debug][1520][OpenNIHostProtocol.cpp:879] Update supported depth video modes from firmware
+[06/18 15:00:53.030825][debug][1520][OpenNIHostProtocol.cpp:915] Reading CMOS 0 supported presets...
+[06/18 15:00:53.046321][debug][1520][OpenNISensorFirmware.cpp:1231] OpenNI camera params read.
+[06/18 15:00:53.047692][debug][1520][OpenNISensorFirmware.cpp:2032] OpenNI camera params read end.
+[06/18 15:00:53.048567][error][1520][OpenNIHostProtocol.cpp:957] Host Protocol sub cmd not supported!
+[06/18 15:00:53.049344][warning][1520][OpenNISensorFirmware.cpp:153] OpenNI2 camera don't support Watchdog function!
+[06/18 15:00:53.049538][debug][1520][OpenNISensorIO.cpp:29] Opening endpoint 0x81 for depth...
+[06/18 15:00:53.050035][debug][1520][OpenNISensorIO.cpp:41] Depth endpoint(0x81) was successfully opened.
+[06/18 15:00:53.050219][debug][1520][OpenNISensorIO.cpp:48] Opening endpoint 0x82 for IR...
+[06/18 15:00:53.050335][debug][1520][OpenNISensorIO.cpp:54] IR endpoint(0x82) was successfully opened.
+[06/18 15:00:53.050409][debug][1520][OpenNISensorIO.cpp:60] Opening endpoint 0x84  for image...
+[06/18 15:00:53.050466][debug][1520][OpenNISensorIO.cpp:65] Image endpoint is not supported...
+[06/18 15:00:53.050519][debug][1520][OpenNISensorIO.cpp:75] Opening endpoint 0x83 for misc...
+[06/18 15:00:53.050567][debug][1520][OpenNISensorIO.cpp:80] Misc endpoint is not supported...
+[06/18 15:00:53.050611][debug][1520][OpenNISensorIO.cpp:87] Endpoints open end.
+[06/18 15:00:53.050810][debug][1520][VendorCommand.cpp:198] VendorCommand constructor 108fd34
+[06/18 15:00:53.050877][debug][1520][OpenNIDevice.cpp:198] init sensor map start!
+[06/18 15:00:53.050954][debug][1520][OpenNIDevice.cpp:212] init sensor map done!
+[06/18 15:00:53.051731][debug][1520][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[06/18 15:00:53.051864][info][1520][AbstractDevice.cpp:124] 	- Firmware version: RD1007
+[06/18 15:00:53.053228][debug][1520][OpenNIDevice.cpp:438] Init depth process param start!
+[06/18 15:00:53.054136][debug][1520][OpenNIDevice.cpp:460] Device baseline: 5.534565, zpd: 129.85279846191406, zpps: 0.11213553696870804
+[06/18 15:00:53.054256][debug][1520][OpenNIDevice.cpp:485] Init depth process param done!
+[06/18 15:00:53.054334][info][1520][OpenNIDevice.cpp:33] OpenNI device created! PID: 0x065b, SN: AD7W333004V
+[06/18 15:00:53.054490][debug][1520][UsbDeviceEnumerator.cpp:338] Device created successfully! Name: Astra Mini Pro, PID: 0x065b, SN/ID: AD7W333004V
+[06/18 15:00:53.054576][info][1520][DeviceManager.cpp:157] Device created successfully! Name: Astra Mini Pro, PID: 0x065b, SN/ID: AD7W333004V
+[06/18 15:00:53.054801][debug][1520][Pipeline.cpp:29] Pipeline init ...
+[06/18 15:00:53.054984][debug][1520][Pipeline.cpp:165] loadFrameQueueSizeConfig() config queue size: 10
+[06/18 15:00:53.055102][info][1520][Pipeline.cpp:44] Pipeline created with device: {name: Astra Mini Pro, sn: AD7W333004V}, @0x10E2A0C

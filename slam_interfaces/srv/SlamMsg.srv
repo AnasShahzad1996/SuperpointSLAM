@@ -1,0 +1,12 @@
+#include "slam_interfaces/RowSlam.msg"
+
+float64 id
+RowMsg[] keypoints
+RowMsg[] descriptors
+float64[] size
+float64[] angle
+float64[] response
+float64[] octave
+float64[] class_id
+float64[] depth_info
+---
