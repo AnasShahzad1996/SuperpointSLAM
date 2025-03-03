@@ -1,6 +1,6 @@
 # superpoint_slam Package
 
-This package implements a visual SLAM pipeline optimized for embedded devices using TPU acceleration, as detailed in the master's thesis "Optimizing Visual SLAM on Embedded Devices Using TPU Acceleration" by Anas Shahzad.  It leverages the SuperPoint network for feature extraction and a modified ORB-SLAM2 for backend processing.  This project specifically aims to accelerate visual SLAM on edge devices, replacing the CPU-intensive ORB feature computation with SuperPoint features suitable for Edge TPU acceleration.
+This package implements a visual SLAM pipeline optimized for embedded devices using TPU acceleration, as detailed in the master's thesis "Optimizing Visual SLAM on Embedded Devices Using TPU Acceleration".  It leverages the SuperPoint network for feature extraction and a modified ORB-SLAM2 for backend processing.  This project specifically aims to accelerate visual SLAM on edge devices, replacing the CPU-intensive ORB feature computation with SuperPoint features suitable for Edge TPU acceleration.
 
 ## Overview
 
@@ -93,7 +93,3 @@ Refer to the master's thesis "Optimizing Visual SLAM on Embedded Devices Using T
 *   **Image Denoising (Section 2.6):** Details the image denoising techniques used to improve SuperPoint accuracy.
 *   **Camera Calibration (Section 2.4):** Details the camera calibration process.
 *   **Results (Section 3):** Presents the experimental results and analysis.
-
-## License
-
-[Add License Information Here]
